@@ -1,0 +1,14 @@
+.gallery-main-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-thumb {
+  height: 120px;
+  object-fit: cover;
+}
+
+.view-all-btn {
+  font-size: 14px;
+  border-radius: 6px;
+}

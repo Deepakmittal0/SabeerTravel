@@ -1,0 +1,44 @@
+.enquiry-modal .modal-header-custom {
+  border-bottom: none;
+  padding-bottom: 0;
+  background-color: white;
+  color: #000;
+  
+}
+.modal-content{
+  width: 400px !important;
+    /* margin-left: 60px; */
+}
+
+.enquiry-modal .modal-body {
+  background-color: white;
+  color: #000;
+}
+
+.custom-input {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 0.95rem;
+}
+
+.submit-btn {
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f5a623;
+  border: none;
+}
+
+.countdown-banner {
+  background: linear-gradient(to right, #0d6efd, #00bcd4);
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 6px 6px 0 0;
+}
+
+.time-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+}

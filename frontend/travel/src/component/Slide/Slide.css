@@ -1,0 +1,30 @@
+/* Infinite scrolling animation */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-scroller {
+  animation: scroll-left 30s linear infinite;
+  width: fit-content;
+}
+
+.logo-scroller:hover {
+  animation-play-state: paused;
+}
+
+.logo-item {
+  flex-shrink: 0;
+  width: 150px;
+  margin: 0 2rem;
+}
+
+.logo-item img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
